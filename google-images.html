@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Google Images</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+    <ul id="nav">
+      <li><a href="index.html">Google Search</a></li>
+      <li><a href="advance-search.html">Advance Search</a></li>
+    </ul>
+
+
+    <div class="container">
+      <img src="images/google-images-small.png">
+
+      <form action="https://images.google.com/search">
+        
+         <div class="form-inputs">
+          <i id="search-icon" class="fa fa-search"></i>
+          <input name="q" class="input-text" autofocus>
+          <input type="hidden" name="tbm" value="isch">
+          <i id="search-icon-button" class="fa fa-search"></i>
+        </div>
+
+        <button style="visibility: hidden">Image Search</button>
+      </form>
+    </div>
+
+   <!--  FOOTER -->
+   <div class="footer-country">
+      Mexico
+   </div>
+
+   <div class="footer">
+    <div class="footer-left">
+        <a>About Google</a>
+        <a>Advertising</a>
+        <a>Business</a>
+        <a>How Search Works</a>    
+    </div>
+
+    <div class="footer-right">
+        <a>Privacy</a>
+        <a>Conditions</a>
+        <a>Preferences</a>
+    </div>
+  </div> 
+
+  
+  <script src="images.js"></script>
+  </body>
+</html>
